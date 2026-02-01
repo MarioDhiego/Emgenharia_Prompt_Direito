@@ -3,8 +3,8 @@ project:
   output-dir: docs
 
 book:
-  title: "**Engenharia de Prompt**"
-  subtitle: "**Parte 1: Fundamentos**"
+  title: "Fundamentos de Engenharia de Prompt"
+  subtitle: "**Aplicado ao Direito de Trânsito**"
   date: "02/01/2026"
   author:
     - name: "**Mário Diego Rocha Valente**"

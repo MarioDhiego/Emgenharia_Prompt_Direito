@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>1&nbsp; ENGENHARIA DE PROMPT – **Engenharia de Prompt**</title>
+<title>1&nbsp; ENGENHARIA DE PROMPT – Fundamentos de Engenharia de Prompt</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -97,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./"><strong>Engenharia de Prompt</strong></a> 
+      <a href="./">Fundamentos de Engenharia de Prompt</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -145,8 +145,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#prompt" id="toc-prompt" class="nav-link" data-scroll-target="#prompt"><span class="header-section-number">1.1.1</span> Prompt</a></li>
   </ul></li>
-  <li><a href="#estrutura-básica-de-prompt-p.r.o.m.p.t" id="toc-estrutura-básica-de-prompt-p.r.o.m.p.t" class="nav-link" data-scroll-target="#estrutura-básica-de-prompt-p.r.o.m.p.t"><span class="header-section-number">1.2</span> Estrutura Básica de prompt (P.R.O.M.P.T)</a></li>
-  <li><a href="#elaborando-prompts-jurídicos" id="toc-elaborando-prompts-jurídicos" class="nav-link" data-scroll-target="#elaborando-prompts-jurídicos"><span class="header-section-number">1.3</span> Elaborando Prompts Jurídicos</a></li>
+  <li><a href="#estrutura-básica-p.r.o.m.p.t" id="toc-estrutura-básica-p.r.o.m.p.t" class="nav-link" data-scroll-target="#estrutura-básica-p.r.o.m.p.t"><span class="header-section-number">1.2</span> Estrutura Básica (P.R.O.M.P.T)</a></li>
   </ul>
 </nav>
     </div>
@@ -210,51 +209,208 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 </section>
-<section id="estrutura-básica-de-prompt-p.r.o.m.p.t" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="estrutura-básica-de-prompt-p.r.o.m.p.t"><span class="header-section-number">1.2</span> Estrutura Básica de prompt (P.R.O.M.P.T)</h2>
+<section id="estrutura-básica-p.r.o.m.p.t" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="estrutura-básica-p.r.o.m.p.t"><span class="header-section-number">1.2</span> Estrutura Básica (P.R.O.M.P.T)</h2>
 <ul>
-<li><p><strong>Persona</strong>: Defina a persona ou papel que o modelo deve assumir ao responder.</p></li>
-<li><p><strong>Roteiro</strong>: Especifique o roteiro ou tarefa que o modelo deve realizar.</p></li>
-<li><p><strong>Objetivo</strong>: Deixe claro qual é o objetivo do prompt e o que se espera alcançar.</p></li>
-<li><p><strong>Modelo</strong>: Indique o formato ou estrutura que a resposta do modelo deve seguir.</p></li>
-<li><p><strong>Panorama</strong>: Forneça informações contextuais relevantes para ajudar o modelo a gerar uma resposta mais precisa e específica.</p></li>
-<li><p><strong>Transformar</strong>: Esteja preparado para refinar e iterar o prompt com base nos resultados obtidos, fornecendo feedback e exemplos adicionais se necessário.</p></li>
+<li><p><strong>DEFINA O PAPEL DA IA (PERSONA)</strong>: Defina a persona ou papel significa dizer ao modelo quem ele deve ser ao responder. Antes de pedir qualquer coisa ao <em>Gemini</em>, defina claramente qual papel você quer que ele assuma. Isso é essencial porque a IA muda completamente o estilo conforme o papel.</p></li>
+<li><p><strong>Por que isso importa no DETRAN?</strong>: Porque o advogado precisa de linguagem institucional, técnica, administrativa, juridicamente fundamentada.</p></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>“Você é um assessor jurídico do DETRAN-PA, especialista em Direito de Trânsito, Processo Administrativo e Resoluções do CONTRAN”.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>“Você é membro da JARI e deve redigir decisão administrativa fundamentada e objetiva.”</p>
+</div>
+</div>
+<div class="progress">
+<div class="progress-bar" style="width: 100%;">
+
+</div>
+</div>
+<ul>
+<li><p><strong>ESPECIFIQUE A AÇÃO DESEJADA (ROTEIRO/TAREFA)</strong>: Especifique o roteiro ou tarefa que o modelo deve realizar. Este é o componente mais crítico. Sempre inclua um verbo claro que indique exatamente o que você quer que seja feito. Aqui você diz exatamente o que a IA deve produzir.</p>
+<ul>
+<li>Elabore</li>
+<li>Analise</li>
+<li>Compare</li>
+<li>Resuma</li>
+<li>Estruture</li>
+</ul></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>“Elabore uma minuta institucional, técnica e inédita de DEFESA PRÉVIA (Defesa da Autuação), em português formal, adequada ao padrão administrativo brasileiro e compatível com a ABNT e normatização do IBGE”.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>“Analise possíveis nulidades formais no Auto de Infração de Trânsito (AIT) lavrado em operação Lei Seca.”</p>
+</div>
+</div>
+<div class="progress">
+<div class="progress-bar" style="width: 100%;">
+
+</div>
+</div>
+<ul>
+<li><p><strong>DECLARA O OBJETIVO</strong>: Deixe claro qual é o objetivo do prompt e o que se espera alcançar. Aqui você inclui todos os detalhes relevantes que a IA precisa para executar a tarefa com precisão. Quanto mais específico, melhor.</p></li>
+<li><p>O objetivo define para que aquele texto será usado:</p>
+<ul>
+<li>Protocolar no DETRAN;</li>
+<li>Responder Denúncia;</li>
+<li>Embasar Decisão; _ Parecer Técnico;</li>
+<li>Orientar Servidor;</li>
+<li>Relatório/Boletim?</li>
+</ul></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>“O objetivo é produzir uma defesa prévia administrativa para impugnar a autuação antes da imposição da penalidade.”.</p>
+</div>
+</div>
+<div class="progress">
+<div class="progress-bar" style="width: 100%;">
+
+</div>
+</div>
+<ul>
+<li><strong>MODELO</strong>: Indique o formato ou estrutura que a resposta do modelo deve seguir.</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>“Utilize exclusivamente normas vigentes em 2025, especialmente a Lei nº 9.503/1997 (CTB), arts. 280 a 282 e art. 165-A, a Resolução CONTRAN nº 918/2022, e os Princípios da ampla defesa e contraditório (Lei nº 9.784/1999)”</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>“Considere também as regras aplicáveis ao processo de cassação da CNH e à dupla notificação.”</p>
+</div>
+</div>
+<div class="progress">
+<div class="progress-bar" style="width: 100%;">
+
+</div>
+</div>
+<ul>
+<li><p><strong>Panorama</strong>: Forneça informações contextuais relevantes para ajudar o modelo a gerar uma resposta mais precisa e específica. Aqui você diz como quer a resposta estruturada.</p></li>
+<li><p>Estruture a resposta nos seguintes tópicos:</p>
+<ul>
+<li>Identificação do recorrente (campos editáveis);</li>
+<li>Síntese do Auto de Infração;</li>
+<li>Fundamentação jurídica;</li>
+<li>Possíveis nulidades formais;</li>
+<li>Pedido final;</li>
+<li>Fecho institucional</li>
+</ul></li>
 </ul>
 <div class="progress">
 <div class="progress-bar" style="width: 100%;">
 
 </div>
 </div>
-</section>
-<section id="elaborando-prompts-jurídicos" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="elaborando-prompts-jurídicos"><span class="header-section-number">1.3</span> Elaborando Prompts Jurídicos</h2>
-<p><strong>Passo 1 — Defina o objetivo</strong></p>
 <ul>
-<li>Decisão?</li>
-<li>Parecer?</li>
-<li>Recurso?</li>
-<li>Relatório?</li>
+<li><strong>TRANSFORMAR</strong>: Esteja preparado para refinar e iterar o prompt com base nos resultados obtidos, fornecendo feedback e exemplos adicionais se necessário.</li>
 </ul>
-<p><strong>Passo 2 — Informa o Tipo de Processo</strong></p>
+<p>A Engenharia de prompt é iterativa, você melhora o resultado pedindo ajustes:</p>
 <ul>
-<li>Infração?</li>
-<li>Suspensão?</li>
-<li>Transferência Fraudulenta</li>
-<li>Denúncia Interna</li>
+<li>Mais Formal;</li>
+<li>Mais Curto;</li>
+<li>Mais Fundamentado;</li>
+<li>Nulidades;</li>
+<li>Retirar Suposições</li>
 </ul>
-<p><strong>Passo 3 — Cite a norma aplicável</strong></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>“Reescreva a minuta com linguagem mais objetiva e institucional, sem citar jurisprudência, apenas normas administrativas.”</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>“Aponte quais informações faltam para tornar a defesa completa e segura.”</p>
+</div>
+</div>
+<div class="progress">
+<div class="progress-bar" style="width: 100%;">
+
+</div>
+</div>
 <ul>
-<li>art. 280–281 CTB</li>
-<li>Resoluções CONTRAN</li>
-<li>Lei 9.784/99 (processo administrativo)</li>
-</ul>
-<p><strong>Passo 4 — Peça linguagem institucional</strong></p>
-<ul>
-<li>“Use tom técnico-administrativo do DETRAN”</li>
-</ul>
-<p><strong>Passo 5 — Peça revisão e riscos</strong></p>
-<ul>
-<li>“Aponte possíveis nulidades ou pontos frágeis”</li>
+<li><strong>REFORÇO</strong>: uma técnica eficaz na elaboração de prompts é a repetiçãode palavras chaves ou conceitosn importantes, caso o prompt seja muito extenso. Essa prática reforça a IA sobre o que é solicitado, aumentando a <strong>Precisão</strong> das respostas.</li>
 </ul>
 <div class="progress">
 <div class="progress-bar" style="width: 100%;">

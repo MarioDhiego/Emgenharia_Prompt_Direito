@@ -42,22 +42,122 @@ A maioria das pessoas falha aqui porque trata o **prompt** como uma busca no Goo
 :::
 
 
-## Estrutura Básica de prompt (P.R.O.M.P.T)
+## Estrutura Básica (P.R.O.M.P.T)
 
-- **Persona**: Defina a persona ou papel que o modelo deve assumir ao responder.
+- **DEFINA O PAPEL DA IA (PERSONA)**: Defina a persona ou papel significa dizer ao modelo quem ele deve ser ao responder. Antes de pedir qualquer coisa ao *Gemini*, defina claramente qual papel você quer que ele assuma. Isso é essencial porque a IA muda completamente o estilo conforme o papel.
 
-- **Roteiro**: Especifique o roteiro ou tarefa que o modelo deve realizar.
-
-- **Objetivo**: Deixe claro qual é o objetivo do prompt e o que se espera alcançar.
-
-- **Modelo**: Indique o formato ou estrutura que a resposta do modelo deve seguir.
-
-- **Panorama**: Forneça informações contextuais relevantes para ajudar o modelo a gerar uma resposta mais precisa e específica.
-
-- **Transformar**: Esteja preparado para refinar e iterar o prompt com base nos resultados obtidos, fornecendo feedback e exemplos adicionais se necessário.
+- **Por que isso importa no DETRAN?**: Porque o advogado precisa de linguagem institucional, técnica, administrativa, juridicamente fundamentada.
 
 
+::: {.callout-note icon="TRUE"}
+"Você é um assessor jurídico do DETRAN-PA, especialista em Direito de Trânsito, Processo Administrativo e Resoluções do CONTRAN".
+:::
 
+::: {.callout-note icon="TRUE"}
+"Você é membro da JARI e deve redigir decisão administrativa fundamentada e objetiva."
+:::
+
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+- **ESPECIFIQUE A AÇÃO DESEJADA (ROTEIRO/TAREFA)**: Especifique o roteiro ou tarefa que o modelo deve realizar. Este é o componente mais crítico. Sempre inclua um verbo claro que indique exatamente o que você quer que seja feito. Aqui você diz exatamente o que a IA deve produzir.
+
+  - Elabore
+  - Analise
+  - Compare
+  - Resuma
+  - Estruture
+
+::: {.callout-note icon="TRUE"}
+"Elabore uma minuta institucional, técnica e inédita de DEFESA PRÉVIA (Defesa da Autuação), em português formal, adequada ao padrão administrativo brasileiro e compatível com a ABNT e normatização do IBGE".
+:::
+  
+  
+::: {.callout-note icon="TRUE"}
+"Analise possíveis nulidades formais no Auto de Infração de Trânsito (AIT) lavrado em operação Lei Seca."
+:::
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+- **DECLARA O OBJETIVO**: Deixe claro qual é o objetivo do prompt e o que se espera alcançar. Aqui você inclui todos os detalhes relevantes que a IA precisa para executar a tarefa com precisão. Quanto mais específico, melhor.
+
+
+- O objetivo define para que aquele texto será usado:
+  - Protocolar no DETRAN;
+  - Responder Denúncia;
+  - Embasar Decisão;
+  _ Parecer Técnico;
+  - Orientar Servidor;
+  - Relatório/Boletim?
+
+
+::: {.callout-note icon="TRUE"}
+"O objetivo é produzir uma defesa prévia administrativa para impugnar a autuação antes da imposição da penalidade.".
+:::
+
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+- **MODELO**: Indique o formato ou estrutura que a resposta do modelo deve seguir.
+
+::: {.callout-note icon="TRUE"}
+"Utilize exclusivamente normas vigentes em 2025, especialmente a Lei nº 9.503/1997 (CTB), arts. 280 a 282 e art. 165-A, a Resolução CONTRAN nº 918/2022, e os Princípios da ampla defesa e contraditório (Lei nº 9.784/1999)"
+:::
+
+::: {.callout-note icon="TRUE"}
+"Considere também as regras aplicáveis ao processo de cassação da CNH e à dupla notificação."
+:::
+
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+- **Panorama**: Forneça informações contextuais relevantes para ajudar o modelo a gerar uma resposta mais precisa e específica. Aqui você diz como quer a resposta estruturada.
+
+
+- Estruture a resposta nos seguintes tópicos:
+  - Identificação do recorrente (campos editáveis);
+  - Síntese do Auto de Infração;
+  - Fundamentação jurídica;
+  - Possíveis nulidades formais;
+  - Pedido final;
+  - Fecho institucional
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+
+- **TRANSFORMAR**: Esteja preparado para refinar e iterar o prompt com base nos resultados obtidos, fornecendo feedback e exemplos adicionais se necessário.
+
+A Engenharia de prompt é iterativa, você melhora o resultado pedindo ajustes:
+
+- Mais Formal;
+- Mais Curto;
+- Mais Fundamentado;
+- Nulidades;
+- Retirar Suposições
+
+::: {.callout-note icon="TRUE"}
+"Reescreva a minuta com linguagem mais objetiva e institucional, sem citar jurisprudência, apenas normas administrativas."
+:::
+
+
+::: {.callout-note icon="TRUE"}
+"Aponte quais informações faltam para tornar a defesa completa e segura."
+:::
 
 ::: progress
 ::: {.progress-bar style="width: 100%;"}
@@ -66,50 +166,21 @@ A maioria das pessoas falha aqui porque trata o **prompt** como uma busca no Goo
 
 
 
-## Elaborando Prompts Jurídicos
-
-
-
-
-
-
-
-
-**Passo 1 — Defina o objetivo**
-
-- Decisão?
-- Parecer?
-- Recurso?
-- Relatório?
-
-**Passo 2 — Informa o Tipo de Processo**
-
-- Infração?
-- Suspensão?
-- Transferência Fraudulenta
-- Denúncia Interna
-
-**Passo 3 — Cite a norma aplicável**
-
-- art. 280–281 CTB
-- Resoluções CONTRAN
-- Lei 9.784/99 (processo administrativo)
-
-**Passo 4 — Peça linguagem institucional**
-
-- “Use tom técnico-administrativo do DETRAN”
-
-**Passo 5 — Peça revisão e riscos**
-
-- “Aponte possíveis nulidades ou pontos frágeis”
-
-
-
+- **REFORÇO**: uma técnica eficaz na elaboração de prompts é a repetiçãode palavras chaves ou conceitosn importantes, caso o prompt seja muito extenso. Essa prática reforça a IA sobre o que é solicitado, aumentando a **Precisão** das respostas.
 
 ::: progress
 ::: {.progress-bar style="width: 100%;"}
 :::
 :::
+
+
+
+
+
+
+
+
+
 
 
 
