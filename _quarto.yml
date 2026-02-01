@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "IA + Engenharia Prompt + Jurimetria"
+  author: "Mário Dhiego Rocha Valente"
+  date: "31/01/2026"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+

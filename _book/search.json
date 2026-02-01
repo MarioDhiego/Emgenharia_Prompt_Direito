@@ -1,0 +1,122 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "IA + Engenharia Prompt + Jurimetria",
+    "section": "",
+    "text": "Prefácio",
+    "crumbs": [
+      "Prefácio"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  MENTALIDADE (O “Porquê”)",
+    "section": "",
+    "text": "2 ENGENHARIA DE PROMPT",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>MENTALIDADE (O \"Porquê\")</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  EXEMPLOS PRÁTICOS",
+    "section": "",
+    "text": "2.1 Análise de Defesas e Recursos de Infrações\nO PROBLEMA: Centenas de recursos de multas com argumentos genéricos ou “copia e cola” de modelos da internet. A Solução com Gemini/NotebookLM:",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>**EXEMPLOS PRÁTICOS**</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#análise-de-defesas-e-recursos-de-infrações",
+    "href": "intro.html#análise-de-defesas-e-recursos-de-infrações",
+    "title": "1  INTRODUÇÃO",
+    "section": "3.1 Análise de Defesas e Recursos de Infrações",
+    "text": "3.1 Análise de Defesas e Recursos de Infrações\nO Problema: Centenas de recursos de multas com argumentos genéricos ou “copia e cola” de modelos da internet. A Solução com Gemini/NotebookLM:\n\nAção: Você sobe 50 recursos de multa para o NotebookLM.\nPrompt: “Identifique quais destes recursos utilizam exatamente a mesma fundamentação jurídica e aponte se algum deles cita uma resolução do CONTRAN que já foi revogada.”\nO Ganho: Em 30 segundos, o advogado identifica a má-fé processual ou erros fundamentais, padronizando o indeferimento com base técnica atualizada.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>**INTRODUÇÃO**</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#investigação-de-denúncias-corrupção-e-erros",
+    "href": "intro.html#investigação-de-denúncias-corrupção-e-erros",
+    "title": "1  INTRODUÇÃO",
+    "section": "3.2 Investigação de Denúncias (Corrupção e Erros)",
+    "text": "3.2 Investigação de Denúncias (Corrupção e Erros)\nO Problema: Cruzar depoimentos de denunciantes, logs de sistema de atendentes e relatórios de examinadores para provar uma irregularidade. A Solução com Gemini Pro:\n\nAção: Inserir a transcrição de 3 depoimentos e o histórico de atendimento do servidor investigado.\nPrompt: “Aponte contradições entre o que o examinador declarou no relatório e o que os dois denunciantes afirmaram sobre o horário e o local da avaliação. Existe um padrão de comportamento identificado nestes documentos?”\nO Ganho: A IA atua como um “perito assistente”, encontrando o “fio da meada” em casos de corrupção ou prevaricação de forma muito mais rápida que a leitura manual.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>**INTRODUÇÃO**</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html#análise-de-defesas-e-recursos-de-infrações",
+    "href": "summary.html#análise-de-defesas-e-recursos-de-infrações",
+    "title": "2  EXEMPLOS PRÁTICOS",
+    "section": "",
+    "text": "AÇÃO: Você sobe 50 recursos de multa para o NotebookLM.\nPROMPT: “Identifique quais destes recursos utilizam exatamente a mesma fundamentação jurídica e aponte se algum deles cita uma resolução do CONTRAN que já foi revogada.”\nO GANHO: Em 30 segundos, o advogado identifica a má-fé processual ou erros fundamentais, padronizando o indeferimento com base técnica atualizada.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>**EXEMPLOS PRÁTICOS**</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html#investigação-de-denúncias-corrupção-e-erros",
+    "href": "summary.html#investigação-de-denúncias-corrupção-e-erros",
+    "title": "2  EXEMPLOS PRÁTICOS",
+    "section": "2.2 Investigação de Denúncias (Corrupção e Erros)",
+    "text": "2.2 Investigação de Denúncias (Corrupção e Erros)\nO PROBLEMA: Cruzar depoimentos de denunciantes, logs de sistema de atendentes e relatórios de examinadores para provar uma irregularidade. A Solução com Gemini Pro:\n\nAÇÃO: Inserir a transcrição de 3 depoimentos e o histórico de atendimento do servidor investigado.\nPROMPT: “Aponte contradições entre o que o examinador declarou no relatório e o que os dois denunciantes afirmaram sobre o horário e o local da avaliação. Existe um padrão de comportamento identificado nestes documentos?”\nO GANHO: A IA atua como um “perito assistente”, encontrando o “fio da meada” em casos de corrupção ou prevaricação de forma muito mais rápida que a leitura manual.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>**EXEMPLOS PRÁTICOS**</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#o-que-é-engenharia-de-prompts",
+    "href": "intro.html#o-que-é-engenharia-de-prompts",
+    "title": "1  MENTALIDADE (O “Porquê”)",
+    "section": "2.1 O que é engenharia de prompts?",
+    "text": "2.1 O que é engenharia de prompts?\nÉ a prática de criar, refinar e otimizar os comandos para modelos de inteligência artificial gerativa, a fim de obter respostas específicas e de alta qualidade.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>MENTALIDADE (O \"Porquê\")</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#prompt",
+    "href": "intro.html#prompt",
+    "title": "1  MENTALIDADE (O “Porquê”)",
+    "section": "2.2 Prompt",
+    "text": "2.2 Prompt\nÉ o comando dado a um modelo de linguagem. Para os advogados, o prompt seria um pedido jurídico bem formulado.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>MENTALIDADE (O \"Porquê\")</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#elaborando-prompts-eficazes",
+    "href": "intro.html#elaborando-prompts-eficazes",
+    "title": "1  INTRODUÇÃO",
+    "section": "3.3 Elaborando Prompts Eficazes",
+    "text": "3.3 Elaborando Prompts Eficazes\n\nContexto (Persona)\nIntruções\nEstrutura de Saída\nExemplos",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>**INTRODUÇÃO**</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html#auditoria-de-erros-processuais-em-cnh-e-veículos",
+    "href": "summary.html#auditoria-de-erros-processuais-em-cnh-e-veículos",
+    "title": "2  EXEMPLOS PRÁTICOS",
+    "section": "2.3 Auditoria de Erros Processuais em CNH e Veículos",
+    "text": "2.3 Auditoria de Erros Processuais em CNH e Veículos\nO PROBLEMA: Processos de transferência ou emissão de CNH travados por falhas formais (falta de documentos, prazos expirados, assinaturas divergentes). A Solução com NotebookLM:\nAÇÃO: Criar um “Caderno de Normas Internas do Detran-PA” e as Portarias vigentes.\nPROMPT: “Com base na Portaria X do Detran-PA, analise este check-list de processo de renovação de CNH e aponte se falta algum requisito para o deferimento.”\nO GANHO: Redução drástica de processos que retornam por diligências evitáveis, acelerando o serviço ao cidadão e diminuindo o passivo administrativo.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>**EXEMPLOS PRÁTICOS**</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#elaborando-prompts-jurídicos",
+    "href": "intro.html#elaborando-prompts-jurídicos",
+    "title": "1  MENTALIDADE (O “Porquê”)",
+    "section": "2.3 Elaborando Prompts Jurídicos",
+    "text": "2.3 Elaborando Prompts Jurídicos\nPasso 1 — Defina o objetivo\n\nDecisão?\nParecer?\nRecurso?\nRelatório?\n\nPasso 2 — Informa o Tipo de Processo\n\nInfração?\nSuspensão?\nTransferência Fraudulenta\nDenúncia Interna\n\nPasso 3 — Cite a norma aplicável\n\nart. 280–281 CTB\nResoluções CONTRAN\nLei 9.784/99 (processo administrativo)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>MENTALIDADE (O \"Porquê\")</span>"
+    ]
+  }
+]

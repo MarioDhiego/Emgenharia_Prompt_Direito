@@ -1,0 +1,48 @@
+
+
+# MENTALIDADE (O "Porquê")
+
+-   Focar na Dor (tempo gasto em tarefas repetitivas)
+-   Ganho (precisão cirúrgica e detecção de padrões que passariam despercebidos).
+
+
+# ENGENHARIA DE PROMPT
+## O que é engenharia de prompts?
+
+É a prática de criar, refinar e otimizar os comandos para modelos de inteligência artificial gerativa, a fim de obter respostas específicas e de alta qualidade.
+
+
+## Prompt
+
+É o comando dado a um modelo de linguagem. Para os advogados, o prompt seria um pedido jurídico bem formulado.
+
+
+## Elaborando Prompts Jurídicos
+
+**Passo 1 — Defina o objetivo**
+
+- Decisão?
+- Parecer?
+- Recurso?
+- Relatório?
+
+**Passo 2 — Informa o Tipo de Processo**
+
+- Infração?
+- Suspensão?
+- Transferência Fraudulenta
+- Denúncia Interna
+
+**Passo 3 — Cite a norma aplicável**
+
+- art. 280–281 CTB
+- Resoluções CONTRAN
+- Lei 9.784/99 (processo administrativo)
+
+
+
+
+
+
+
+
