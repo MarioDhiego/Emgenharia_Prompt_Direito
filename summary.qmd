@@ -1,6 +1,17 @@
+```{=html}
+<style>
+  body{text-align: justify}
+</style>
+```
 
 
-# **EXEMPLOS PRÁTICOS**
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+
+# EXEMPLOS PRÁTICOS
 ## Análise de Defesas e Recursos de Infrações
 
 **O PROBLEMA**: Centenas de recursos de multas com argumentos genéricos ou "copia e cola" de modelos da internet. A Solução com Gemini/NotebookLM:
@@ -10,7 +21,6 @@
 - **PROMPT: "Identifique quais destes recursos utilizam exatamente a mesma fundamentação jurídica e aponte se algum deles cita uma resolução do CONTRAN que já foi revogada."**
 
 - **O GANHO**: Em 30 segundos, o advogado identifica a má-fé processual ou erros fundamentais, padronizando o indeferimento com base técnica atualizada.
-
 
 ## Investigação de Denúncias (Corrupção e Erros)
 
@@ -22,21 +32,20 @@
 
 - **O GANHO**: A IA atua como um "perito assistente", encontrando o "fio da meada" em casos de corrupção ou prevaricação de forma muito mais rápida que a leitura manual.
 
-
 ## Auditoria de Erros Processuais em CNH e Veículos
 
 **O PROBLEMA**: Processos de transferência ou emissão de CNH travados por falhas formais (falta de documentos, prazos expirados, assinaturas divergentes). A Solução com NotebookLM:
 
-**AÇÃO**: Criar um "Caderno de Normas Internas do Detran-PA" e as Portarias vigentes.
+- **AÇÃO**: Criar um "Caderno de Normas Internas do Detran-PA" e as Portarias vigentes.
 
-**PROMPT: "Com base na Portaria X do Detran-PA, analise este check-list de processo de renovação de CNH e aponte se falta algum requisito para o deferimento."**
+- **PROMPT: "Com base na Portaria X do Detran-PA, analise este check-list de processo de renovação de CNH e aponte se falta algum requisito para o deferimento."**
 
-**O GANHO**: Redução drástica de processos que retornam por diligências evitáveis, acelerando o serviço ao cidadão e diminuindo o passivo administrativo.
+- **O GANHO**: Redução drástica de processos que retornam por diligências evitáveis, acelerando o serviço ao cidadão e diminuindo o passivo administrativo.
 
-
-
-
-
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
 
 
 

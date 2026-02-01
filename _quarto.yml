@@ -1,10 +1,26 @@
 project:
   type: book
+  output-dir: docs
 
 book:
-  title: "IA + Engenharia Prompt + Jurimetria"
-  author: "Mário Dhiego Rocha Valente"
-  date: "31/01/2026"
+  title: "**Engenharia de Prompt**"
+  subtitle: "**Parte 1: Fundamentos**"
+  date: "02/01/2026"
+  author:
+    - name: "**Mário Diego Rocha Valente**"
+      id: md
+      orcid: 0000-0001-7262-3336
+      url: mario.valente@detran.pa.gov.br
+      email: mario.valente@detran.pa.gov.br
+      corresponding: true
+      affiliation:
+        - Analista de Trânsito
+        - DETRAN-PA
+  page-footer:
+    left: |
+      Was Written by (VALENTE - 2026).
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
   chapters:
     - index.qmd
     - intro.qmd

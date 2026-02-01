@@ -1,0 +1,92 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Engenharia de Prompt",
+    "section": "",
+    "text": "Prefácio\nNo final dos anos de 1950, Alan Turing, o pai da ciência da computação, lançou um desafio ousado: ele imaginou um futuro em que as máquinas poderiam simular inteligência humana tão bem que um juiz humano nçao conseguiria distinguir entre as respostas de uma maquina e de uma pessoa. Esse foi o pontapé inicial para uma corrida repleta de obstaculos, sucessos e fracassos notáveis.\nHoje, estamos muito mais próximos de realizar essa visão do que jamais estivemos, graças aos modelos de linguagem.\nA áerea de processamento de linguagem natural alcançou um progresso técnico fantástico com o passar dos anos, mas até recentemente o uso da tecnologia estava limitado a algumas poucas pessoas.\nNesse contexto, este curso foi prejetado para ser acessível a todas as pessoas, mas algum conhecimento básico de programação pode ajudar. Com uso de explicações claras, exemplos de projeto e instruções passo a passo, venha descobrir o mundo mágico do GPT, podem transformar a maneira de interagirmos com as máquinas.",
+    "crumbs": [
+      "Prefácio"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  ENGENHARIA DE PROMPT",
+    "section": "",
+    "text": "1.1 Fundamentos?\nÉ a ciência empírica de planejar, criar, refinar e otimizar os comandos para modelos de inteligência artificial, a fim de obter respostas específicas e de alta qualidade.\nA engenharia de prompt é uma meta-habilidade que destrava todas as outras, permitindo usar os modelos de linguagem para diversas aplicações. É uma área tão importante que empresas como a Anthropic oferecem salários de até 2.7 milhões de reais por ano para engenheiros de prompt.\nAo criar um prompt, pense em como você explicaria a tarefa para uma pessoa ao seu lado. Se a explicação for clara para um humano, provavelmente também será para o modelo de linguagem.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>ENGENHARIA DE PROMPT</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#fundamentos",
+    "href": "intro.html#fundamentos",
+    "title": "1  ENGENHARIA DE PROMPT",
+    "section": "",
+    "text": "1.1.1 Prompt\nUm prompt não é apenas uma pergunta – é o início de uma conversa inteligente com a IA. Pense nisso como você pensaria ao delegar uma tarefa para um colega talentoso: quanto mais contexto e clareza você fornecer, melhor será o resultado.\nA maioria das pessoas falha aqui porque trata o prompt como uma busca no Google. Elas digitam palavras-chave soltas e esperam milagres. Os profissionais bem-sucedidos entendem que prompting é uma habilidade conversacional.\n\nÉ o comando dado a um modelo de linguagem.\nPara os advogados, o prompt seria um pedido jurídico bem formulado.\n\n\n1.1.1.1 Sugestões para Otimizar seus Prompt’s\n\nUse Linguagem Natural;\nSeja Específico e Interativo;\nMantenha a Concisão e Evite Complexidade;\nTransforme em Conversa;\nUtilize seus Documentos;",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>ENGENHARIA DE PROMPT</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#estrutura-básica-de-prompt-p.r.o.m.p.t",
+    "href": "intro.html#estrutura-básica-de-prompt-p.r.o.m.p.t",
+    "title": "1  ENGENHARIA DE PROMPT",
+    "section": "1.2 Estrutura Básica de prompt (P.R.O.M.P.T)",
+    "text": "1.2 Estrutura Básica de prompt (P.R.O.M.P.T)\n\nPersona: Defina a persona ou papel que o modelo deve assumir ao responder.\nRoteiro: Especifique o roteiro ou tarefa que o modelo deve realizar.\nObjetivo: Deixe claro qual é o objetivo do prompt e o que se espera alcançar.\nModelo: Indique o formato ou estrutura que a resposta do modelo deve seguir.\nPanorama: Forneça informações contextuais relevantes para ajudar o modelo a gerar uma resposta mais precisa e específica.\nTransformar: Esteja preparado para refinar e iterar o prompt com base nos resultados obtidos, fornecendo feedback e exemplos adicionais se necessário.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>ENGENHARIA DE PROMPT</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#elaborando-prompts-jurídicos",
+    "href": "intro.html#elaborando-prompts-jurídicos",
+    "title": "1  ENGENHARIA DE PROMPT",
+    "section": "1.3 Elaborando Prompts Jurídicos",
+    "text": "1.3 Elaborando Prompts Jurídicos\nPasso 1 — Defina o objetivo\n\nDecisão?\nParecer?\nRecurso?\nRelatório?\n\nPasso 2 — Informa o Tipo de Processo\n\nInfração?\nSuspensão?\nTransferência Fraudulenta\nDenúncia Interna\n\nPasso 3 — Cite a norma aplicável\n\nart. 280–281 CTB\nResoluções CONTRAN\nLei 9.784/99 (processo administrativo)\n\nPasso 4 — Peça linguagem institucional\n\n“Use tom técnico-administrativo do DETRAN”\n\nPasso 5 — Peça revisão e riscos\n\n“Aponte possíveis nulidades ou pontos frágeis”",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>ENGENHARIA DE PROMPT</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  EXEMPLOS PRÁTICOS",
+    "section": "",
+    "text": "2.1 Análise de Defesas e Recursos de Infrações\nO PROBLEMA: Centenas de recursos de multas com argumentos genéricos ou “copia e cola” de modelos da internet. A Solução com Gemini/NotebookLM:",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>EXEMPLOS PRÁTICOS</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html#análise-de-defesas-e-recursos-de-infrações",
+    "href": "summary.html#análise-de-defesas-e-recursos-de-infrações",
+    "title": "2  EXEMPLOS PRÁTICOS",
+    "section": "",
+    "text": "AÇÃO: Você sobe 50 recursos de multa para o NotebookLM.\nPROMPT: “Identifique quais destes recursos utilizam exatamente a mesma fundamentação jurídica e aponte se algum deles cita uma resolução do CONTRAN que já foi revogada.”\nO GANHO: Em 30 segundos, o advogado identifica a má-fé processual ou erros fundamentais, padronizando o indeferimento com base técnica atualizada.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>EXEMPLOS PRÁTICOS</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html#investigação-de-denúncias-corrupção-e-erros",
+    "href": "summary.html#investigação-de-denúncias-corrupção-e-erros",
+    "title": "2  EXEMPLOS PRÁTICOS",
+    "section": "2.2 Investigação de Denúncias (Corrupção e Erros)",
+    "text": "2.2 Investigação de Denúncias (Corrupção e Erros)\nO PROBLEMA: Cruzar depoimentos de denunciantes, logs de sistema de atendentes e relatórios de examinadores para provar uma irregularidade. A Solução com Gemini Pro:\n\nAÇÃO: Inserir a transcrição de 3 depoimentos e o histórico de atendimento do servidor investigado.\nPROMPT: “Aponte contradições entre o que o examinador declarou no relatório e o que os dois denunciantes afirmaram sobre o horário e o local da avaliação. Existe um padrão de comportamento identificado nestes documentos?”\nO GANHO: A IA atua como um “perito assistente”, encontrando o “fio da meada” em casos de corrupção ou prevaricação de forma muito mais rápida que a leitura manual.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>EXEMPLOS PRÁTICOS</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html#auditoria-de-erros-processuais-em-cnh-e-veículos",
+    "href": "summary.html#auditoria-de-erros-processuais-em-cnh-e-veículos",
+    "title": "2  EXEMPLOS PRÁTICOS",
+    "section": "2.3 Auditoria de Erros Processuais em CNH e Veículos",
+    "text": "2.3 Auditoria de Erros Processuais em CNH e Veículos\nO PROBLEMA: Processos de transferência ou emissão de CNH travados por falhas formais (falta de documentos, prazos expirados, assinaturas divergentes). A Solução com NotebookLM:\n\nAÇÃO: Criar um “Caderno de Normas Internas do Detran-PA” e as Portarias vigentes.\nPROMPT: “Com base na Portaria X do Detran-PA, analise este check-list de processo de renovação de CNH e aponte se falta algum requisito para o deferimento.”\nO GANHO: Redução drástica de processos que retornam por diligências evitáveis, acelerando o serviço ao cidadão e diminuindo o passivo administrativo.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>EXEMPLOS PRÁTICOS</span>"
+    ]
+  }
+]

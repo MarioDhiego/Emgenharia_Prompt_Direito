@@ -1,23 +1,79 @@
+```{=html}
+<style>
+  body{text-align: justify}
+</style>
+```
 
-
-# MENTALIDADE (O "Porquê")
-
--   Focar na Dor (tempo gasto em tarefas repetitivas)
--   Ganho (precisão cirúrgica e detecção de padrões que passariam despercebidos).
-
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
 
 # ENGENHARIA DE PROMPT
-## O que é engenharia de prompts?
+## Fundamentos?
 
-É a prática de criar, refinar e otimizar os comandos para modelos de inteligência artificial gerativa, a fim de obter respostas específicas e de alta qualidade.
+É a ciência empírica de planejar, criar, refinar e otimizar os comandos para modelos de inteligência artificial, a fim de obter respostas específicas e de alta qualidade.
+
+A engenharia de prompt é uma **meta-habilidade** que destrava todas as outras, permitindo usar os modelos de linguagem para diversas aplicações. É uma área tão importante que empresas como a Anthropic oferecem salários de até 2.7 milhões de reais por ano para engenheiros de prompt.
+
+Ao criar um prompt, pense em como você explicaria a tarefa para uma pessoa ao seu lado. Se a explicação for clara para um humano, provavelmente também será para o modelo de linguagem.
+
+### Prompt
+
+Um prompt não é apenas uma pergunta – é o início de uma conversa inteligente com a IA. Pense nisso como você pensaria ao delegar uma tarefa para um colega talentoso: quanto mais contexto e clareza você fornecer, melhor será o resultado.
+
+A maioria das pessoas falha aqui porque trata o **prompt** como uma busca no Google. Elas digitam palavras-chave soltas e esperam milagres. Os profissionais bem-sucedidos entendem que **prompting** é uma habilidade conversacional.
+
+- É o comando dado a um modelo de linguagem. 
+- Para os advogados, o prompt seria um pedido jurídico bem formulado.
+
+#### Sugestões para Otimizar seus Prompt's
+
+- Use Linguagem Natural;
+- Seja Específico e Interativo;
+- Mantenha a Concisão e Evite Complexidade;
+- Transforme em Conversa;
+- Utilize seus Documentos;
 
 
-## Prompt
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
 
-É o comando dado a um modelo de linguagem. Para os advogados, o prompt seria um pedido jurídico bem formulado.
+
+## Estrutura Básica de prompt (P.R.O.M.P.T)
+
+- **Persona**: Defina a persona ou papel que o modelo deve assumir ao responder.
+
+- **Roteiro**: Especifique o roteiro ou tarefa que o modelo deve realizar.
+
+- **Objetivo**: Deixe claro qual é o objetivo do prompt e o que se espera alcançar.
+
+- **Modelo**: Indique o formato ou estrutura que a resposta do modelo deve seguir.
+
+- **Panorama**: Forneça informações contextuais relevantes para ajudar o modelo a gerar uma resposta mais precisa e específica.
+
+- **Transformar**: Esteja preparado para refinar e iterar o prompt com base nos resultados obtidos, fornecendo feedback e exemplos adicionais se necessário.
+
+
+
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
 
 
 ## Elaborando Prompts Jurídicos
+
+
+
+
+
+
+
 
 **Passo 1 — Defina o objetivo**
 
@@ -38,6 +94,25 @@
 - art. 280–281 CTB
 - Resoluções CONTRAN
 - Lei 9.784/99 (processo administrativo)
+
+**Passo 4 — Peça linguagem institucional**
+
+- “Use tom técnico-administrativo do DETRAN”
+
+**Passo 5 — Peça revisão e riscos**
+
+- “Aponte possíveis nulidades ou pontos frágeis”
+
+
+
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+
+
 
 
 
