@@ -4,12 +4,10 @@
 </style>
 ```
 
-
-::: progress
+:::: progress
 ::: {.progress-bar style="width: 100%;"}
 :::
-:::
-
+::::
 
 # Prefácio {.unnumbered}
 
@@ -21,23 +19,7 @@ A áerea de processamento de linguagem natural alcançou um progresso técnico f
 
 Nesse contexto, este curso foi prejetado para ser acessível a todas as pessoas, mas algum conhecimento básico de programação pode ajudar. Com uso de explicações claras, exemplos de projeto e instruções passo a passo, venha descobrir o mundo mágico do GPT, podem transformar a maneira de interagirmos com as máquinas.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-::: progress
+:::: progress
 ::: {.progress-bar style="width: 100%;"}
 :::
-:::
-
+::::

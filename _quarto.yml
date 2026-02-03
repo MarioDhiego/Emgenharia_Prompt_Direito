@@ -23,6 +23,7 @@ book:
       This book was built with <a href="https://quarto.org/">Quarto</a>.
   chapters:
     - index.qmd
+    - jurimetria.qmd
     - intro.qmd
     - summary.qmd
     - references.qmd
